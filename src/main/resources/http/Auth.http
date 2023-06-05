@@ -1,0 +1,37 @@
+### Registration
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "firstname": "Admin",
+  "lastname": "Adminjonov",
+  "email": "admin@gmail.com",
+  "password": "123456",
+  "role": "ADMIN"
+}
+
+
+### Authenticate
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODU5MzU4NzQsImV4cCI6MTY4NjAyMjI3NH0.FcOCE5dvoNiWXaLavUm_VGsNa5c5qAWaymcTDyqw9xc
+
+{
+  "email": "admin@gmail.com",
+  "password": "123456"
+}
+
+
+
+### Login
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email":"altokaev@gmail.com",
+  "password":"123456"
+}
+
+### Refresh-token
+POST http://localhost:8080/api/v1/auth/refresh-token

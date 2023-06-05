@@ -1,0 +1,4 @@
+### GET
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODU5MzYwMzIsImV4cCI6MTY4NjAyMjQzMn0.lWg73QyT6megVx7ooB1o94j4T_l2GnhJX_mhN0LzSyw
+
